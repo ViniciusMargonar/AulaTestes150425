@@ -11,7 +11,7 @@ def validar_senha(senha: str) -> bool:
  def test_senha_com_menos_de_8_caracteres():
     senha = "Ab1$xy"  # 6 caracteres
     resultado = validar_senha(senha)
-    assert not resultado
+    assert not resultado # Espera um false
 ```
 ![image](https://github.com/user-attachments/assets/1a797bc8-21d0-4ce0-8fb9-7548017a68c7)
 
@@ -48,7 +48,18 @@ def verificar_tamanho_minimo(senha: str) -> bool:
 ### 🔴 RED
 
 ```python
+def validar_senha(senha: str) -> bool:
+    if not verificar_tamanho_minimo(senha):
+        return False
 
+    return True
+
+def verificar_tamanho_minimo(senha: str) -> bool:
+    return len(senha) >= 8
+def test_senha_sem_maiuscula():
+    senha = "abc123$%"  
+    resultado = validar_senha(senha)
+    assert not resultado, "Senhas sem letra maiúscula devem ser inválidas"
 ```
 
 ### 🟢 GREEN
