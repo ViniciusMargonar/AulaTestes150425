@@ -1,6 +1,6 @@
--- Testes de Software
+Testes de Software
 
-- Mínimo de 8 caracteres.
+Mínimo de 8 caracteres.
 
 - RED
   
