@@ -1,6 +1,6 @@
 # Testes de Software
 
-## Mínimo de 8 caracteres.
+## Mínimo de 8 caracteres
 
 ### 🔴 RED
   
@@ -42,5 +42,24 @@ def validar_senha(senha: str) -> bool:
 
 def verificar_tamanho_minimo(senha: str) -> bool:
     return len(senha) >= 8
+```
+## Pelo menos uma letra maiúscula
+
+### 🔴 RED
+
+```python
+
+```
+
+### 🟢 GREEN
+
+```python
+
+```
+
+### 🔵 REFACTOR
+
+```python
+
 ```
 
