@@ -1,8 +1,8 @@
-Testes de Software
+# Testes de Software
 
-Mínimo de 8 caracteres.
+## Mínimo de 8 caracteres.
 
-- RED
+### <span style="color:red">RED <span>
   
 ```
 def validar_senha(senha: str) -> bool:
@@ -15,7 +15,7 @@ def validar_senha(senha: str) -> bool:
 ```
 ![image](https://github.com/user-attachments/assets/1a797bc8-21d0-4ce0-8fb9-7548017a68c7)
 
-- GREEN
+### GREEN
 
 ```
 def validar_senha(senha: str) -> bool:
