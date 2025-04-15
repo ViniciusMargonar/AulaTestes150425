@@ -28,3 +28,19 @@ def validar_senha(senha: str) -> bool:
         return False
     return True
 ```
+![image](https://github.com/user-attachments/assets/38821b7a-61a9-4c8c-a73b-b8a77e33241d)
+
+### 🔵 REFACTOR
+
+```python
+def validar_senha(senha: str) -> bool:
+    if not verificar_tamanho_minimo(senha):
+        return False
+
+    return True
+
+
+def verificar_tamanho_minimo(senha: str) -> bool:
+    return len(senha) >= 8
+```
+
