@@ -1,4 +1,4 @@
-- Testes de Software
+-- Testes de Software
 
 - Mínimo de 8 caracteres.
 
