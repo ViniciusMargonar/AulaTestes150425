@@ -2,9 +2,9 @@
 
 ## Mínimo de 8 caracteres.
 
-### <span style="color:red">RED <span>
+### <span style="color:red">RED</span>
   
-```
+```python
 def validar_senha(senha: str) -> bool:
     return True 
 
@@ -17,7 +17,7 @@ def validar_senha(senha: str) -> bool:
 
 ### GREEN
 
-```
+```python
 def validar_senha(senha: str) -> bool:
     if len(senha) < 8:
         return False
