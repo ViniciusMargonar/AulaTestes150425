@@ -62,6 +62,9 @@ def test_senha_sem_maiuscula():
     assert not resultado, "Senhas sem letra maiúscula devem ser inválidas"
 ```
 
+![image](https://github.com/user-attachments/assets/e5e8f599-7da1-4dc6-81e6-c21c647370d3)
+
+
 ### 🟢 GREEN
 
 ```python
