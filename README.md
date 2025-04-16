@@ -93,6 +93,9 @@ def test_senha_sem_maiuscula():
 
 ```
 
+![image](https://github.com/user-attachments/assets/61b2e34c-a18f-4d0a-839d-385ee61b471a)
+
+
 ### 🔵 REFACTOR
 
 ```python
